@@ -9,3 +9,14 @@
 /Users/dominiqueyoumans/Desktop/WeSellCars-/bin/Debug/netcoreapp2.2/Car.pdb
 /Users/dominiqueyoumans/Desktop/WeSellCars-/obj/Debug/netcoreapp2.2/Car.dll
 /Users/dominiqueyoumans/Desktop/WeSellCars-/obj/Debug/netcoreapp2.2/Car.pdb
+/Users/Guest/Desktop/WeSellCars-/bin/Debug/netcoreapp2.2/Car.deps.json
+/Users/Guest/Desktop/WeSellCars-/bin/Debug/netcoreapp2.2/Car.runtimeconfig.json
+/Users/Guest/Desktop/WeSellCars-/bin/Debug/netcoreapp2.2/Car.runtimeconfig.dev.json
+/Users/Guest/Desktop/WeSellCars-/bin/Debug/netcoreapp2.2/Car.dll
+/Users/Guest/Desktop/WeSellCars-/bin/Debug/netcoreapp2.2/Car.pdb
+/Users/Guest/Desktop/WeSellCars-/obj/Debug/netcoreapp2.2/Car.csprojAssemblyReference.cache
+/Users/Guest/Desktop/WeSellCars-/obj/Debug/netcoreapp2.2/Car.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/WeSellCars-/obj/Debug/netcoreapp2.2/Car.AssemblyInfoInputs.cache
+/Users/Guest/Desktop/WeSellCars-/obj/Debug/netcoreapp2.2/Car.AssemblyInfo.cs
+/Users/Guest/Desktop/WeSellCars-/obj/Debug/netcoreapp2.2/Car.dll
+/Users/Guest/Desktop/WeSellCars-/obj/Debug/netcoreapp2.2/Car.pdb
