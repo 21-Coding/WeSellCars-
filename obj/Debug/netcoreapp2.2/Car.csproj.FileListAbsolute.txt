@@ -1,0 +1,11 @@
+/Users/dominiqueyoumans/Desktop/WeSellCars-/obj/Debug/netcoreapp2.2/Car.csprojAssemblyReference.cache
+/Users/dominiqueyoumans/Desktop/WeSellCars-/obj/Debug/netcoreapp2.2/Car.csproj.CoreCompileInputs.cache
+/Users/dominiqueyoumans/Desktop/WeSellCars-/obj/Debug/netcoreapp2.2/Car.AssemblyInfoInputs.cache
+/Users/dominiqueyoumans/Desktop/WeSellCars-/obj/Debug/netcoreapp2.2/Car.AssemblyInfo.cs
+/Users/dominiqueyoumans/Desktop/WeSellCars-/bin/Debug/netcoreapp2.2/Car.deps.json
+/Users/dominiqueyoumans/Desktop/WeSellCars-/bin/Debug/netcoreapp2.2/Car.runtimeconfig.json
+/Users/dominiqueyoumans/Desktop/WeSellCars-/bin/Debug/netcoreapp2.2/Car.runtimeconfig.dev.json
+/Users/dominiqueyoumans/Desktop/WeSellCars-/bin/Debug/netcoreapp2.2/Car.dll
+/Users/dominiqueyoumans/Desktop/WeSellCars-/bin/Debug/netcoreapp2.2/Car.pdb
+/Users/dominiqueyoumans/Desktop/WeSellCars-/obj/Debug/netcoreapp2.2/Car.dll
+/Users/dominiqueyoumans/Desktop/WeSellCars-/obj/Debug/netcoreapp2.2/Car.pdb
