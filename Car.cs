@@ -7,7 +7,12 @@ public class Car
   public string MakeModel;
   public int Price;
   public int Miles;
-
+public Car(string makeModel, int price, int miles)
+{
+  MakeModel = makeModel;
+  Price = price;
+  Miles = miles;
+}
   public bool WorthyPurchase(int maxPrice)
   {
     return (Price < maxPrice);
@@ -18,27 +23,19 @@ public class Program
 {
   public static void Main()
   {
-    Car bmw = new Car();
-    bmw.MakeModel = "1990 BMW Alpine";
-    bmw.Price = 110100;
-    bmw.Miles = 4000;
+    Car bmw = new Car("1990 BMW Alpine", 110100, 4000);
+    Car chevy = new Car("2019 Chevy Silverado", 200000, 130000);
+    Car magiccarpet = new Car("2022 Tesla Throwrug", 210000, 100000);
+    Car magicschoolbus = new Car("1991 Cheese Bus", 1, 90000000);
 
-    Car chevy = new Car();
-    chevy.MakeModel = "2019 Chevy Silverado";
-    chevy.Price = 200000;
-    chevy.Miles = 130000;
 
-    Car magiccarpet = new Car();
-    magiccarpet.MakeModel = "2022 Tesla Throwrug";
-    magiccarpet.Price = 210000;
-    magiccarpet.Miles = 100000;
 
-    Car magicschoolbus = new Car();
-    magicschoolbus.MakeModel = "1991 Cheese Bus";
-    magicschoolbus.Price = 1;
-    magicschoolbus.Miles = 90000000;
 
-    List<Car> Cars = new List<Car>() { bmw, chevy, magiccarpet, magicschoolbus};
+
+
+
+
+    List<Car> Cars = new List<Car>() {bmw, chevy, magiccarpet, magicschoolbus};
 
     Console.WriteLine("Enter maximum price: ");
     string stringMaxPrice = Console.ReadLine();
