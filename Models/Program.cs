@@ -13,10 +13,10 @@ namespace Dealership
       {
         Console.ForegroundColor = ConsoleColor.Yellow;
         Console.BackgroundColor = ConsoleColor.Black;
-        Car bmw = new Car("1990 BMW Alpine", 110100, 4000, "Rides smooth, huge dents on sides.");
-        Car chevy = new Car("2019 Chevy Silverado", 200000, 130000, "Brakes are bad.");
-        Car magiccarpet = new Car("2022 Tesla Magic Carpet", 210000, 100000, "Needs weekly shampoo.");
-        Car magicschoolbus = new Car("1991 Cheese Bus", 1, 90000000, "Snacks and crumbs in seats.");
+        Car bmw = new Car("1990 BMW Alpine", 110100, 4000, "Rides smooth, huge dents on sides.", "Green", "4 doors", true);
+        Car chevy = new Car("2019 Chevy Silverado", 200000, 130000, "Brakes are bad.", "Blue", "2 doors", true);
+        Car magiccarpet = new Car("2022 Tesla Magic Carpet", 210000, 100000, "Needs weekly shampoo.", "Yellow", "2 doors", true);
+        Car magicschoolbus = new Car("1991 Cheese Bus", 1, 90000000, "Snacks and crumbs in seats.", "Red", "1 door", false);
 
         List<Car> Cars = new List<Car>() {bmw, chevy, magiccarpet, magicschoolbus};
 
@@ -57,6 +57,9 @@ namespace Dealership
           Console.WriteLine(automobile.GetMessage());
           Console.WriteLine(automobile.GetMiles() + " Miles");
           Console.WriteLine("$" + automobile.GetPrice() + ".00");
+          Console.WriteLine(automobile.GetCarColor());
+          Console.WriteLine(automobile.GetDoors());
+          Console.WriteLine(automobile.GetGPS());
 
         }
         if (CarsMatchingSearch.Count == 0)
