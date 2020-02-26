@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Dealership.Model;
 
 
-namespace Dealership 
+namespace Dealership
 {
 
 
@@ -11,7 +11,7 @@ namespace Dealership
     {
       public static void Main()
       {
-        Console.ForegroundColor = ConsoleColor.White;
+        Console.ForegroundColor = ConsoleColor.Yellow;
         Console.BackgroundColor = ConsoleColor.Black;
         Car bmw = new Car("1990 BMW Alpine", 110100, 4000, "Rides smooth, huge dents on sides.");
         Car chevy = new Car("2019 Chevy Silverado", 200000, 130000, "Brakes are bad.");
@@ -42,16 +42,17 @@ namespace Dealership
           {
             CarsMatchingSearch.Add(automobile);
           }
-        }
-        if (!automobile.WorthyPurchase(maxPrice))
-        {
-          Console.WriteLine("Price is too low!");
+          if (!automobile.WorthyPurchase(maxPrice))
+          {
+            Console.WriteLine("Your price is too low for some of our inventory, available cars: ");
+          }
         }
         }
 
 
         foreach(Car automobile in CarsMatchingSearch)
         {
+          Console.WriteLine("----------------------");
           Console.WriteLine(automobile.GetMakeModel());
           Console.WriteLine(automobile.GetMessage());
           Console.WriteLine(automobile.GetMiles() + " Miles");
